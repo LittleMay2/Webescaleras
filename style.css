@@ -1,0 +1,109 @@
+/*diseño creado con css es responsive○*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: #ad5389;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contenedor{
+    max-width: 100%;
+    background-color:#1c0722;
+    margin: 0px auto;
+}
+/* Navbar */
+header,nav,ul,li,a {
+    display: inline-block;
+    padding: 0 px;
+}
+header>nav>ul>li>a:hover{
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: none;   
+}
+header li a {
+    color: #000000;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+header{
+    background-color: #ffff;
+    color: #f8f4f4;
+    display: block;
+}
+/* Navbar */
+.main{
+    background-color: #f8f4f4;
+    padding: 0px;
+    max-width: 70%;
+    float: left;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.posts{
+    padding: 15px;
+  
+}
+article, h2{
+    padding: 10px;
+}
+/* aside */
+aside {
+    background-color: #171e26;
+    padding: 20px;
+    width: 30%;
+    float: left;
+}
+aside,nav,ul,li,a {
+    list-style-type: none;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0px;
+}
+aside a{
+    padding: 5px;
+}
+.widget {
+    padding: 20px;
+    padding-bottom: 0px;
+}
+.widget h3{
+    color: #f76d23;
+    font-size: larger;
+    padding: 10px;
+}
+.widget>p { 
+    padding-bottom: 20px;
+}
+.widget>ul>li>a:hover{
+    background-color: rgba(0, 230, 251, 0.718);
+    color: #090808;
+}
+/* aside */
+footer {
+    background-color: #000000;
+    padding: 20px;
+    color: #fff;
+    clear: both;
+    text-align: center;
+    float: left;
+    width: 70%;
+
+}
+/* Estilos para pantallas más pequeñas que 600 píxeles de ancho */
+@media screen and (min-width: 1024px) {
+    /* Estilos específicos para pantallas pequeñas */
+    img {
+      width: 100%; 
+    }
+  }
